@@ -31,6 +31,7 @@ func variablesExample() {
     fmt.Printf("%v %T\n", movieYear, movieYear)
 }
 ```
+
 ### Constants and Iota
 
 ```go
@@ -41,6 +42,7 @@ const (
 )
 fmt.Println(a, b, c) // Outputs: 0 1 2
 ```
+
 ### Arrays and Slices
 
 ```go
@@ -58,6 +60,7 @@ func arraysAndSlicesExample() {
     fmt.Println(fruits)
 }
 ```
+
 ### Maps
 
 ```go
@@ -68,6 +71,7 @@ fruitBasket := map[string]int{
 }
 fmt.Println(fruitBasket)
 ```
+
 ### Functions and Higher-Order Functions
 
 ```go
@@ -83,7 +87,9 @@ func main() {
     fmt.Println(greetings("John", getAge))
 }
 ```
+
 ## Additional Important Concepts
+
 ### Pointers
 
 ```go
@@ -97,6 +103,7 @@ func pointersExample() {
     fmt.Println("New value:", x)
 }
 ```
+
 ### Structs and Methods
 
 ```go
@@ -135,6 +142,7 @@ func interfacesExample() {
     fmt.Printf("Area: %.2f\n", s.Area())
 }
 ```
+
 ### Error Handling
 
 ```go
@@ -183,6 +191,7 @@ func deferPanicRecoverExample() {
     fmt.Println("This line will not be executed")
 }
 ```
+
 ## Running the Code
 
 To run any of the examples, use the following command:
@@ -190,17 +199,16 @@ To run any of the examples, use the following command:
 ```go
 go run main.go
 ```
+
 ## Resources
 
 - [Official Go Documentation](https://golang.org/doc/)
 - [A Tour of Go](https://tour.golang.org/)
 - [Effective Go](https://golang.org/doc/effective_go)
 
-## Next Steps
+## My Next Steps
 
-- Build small projects to apply learned concepts
-- Explore Go's standard library
-- Learn about Go modules and dependency management
-- Practice writing concurrent programs using goroutines and channels
-- Contribute to open-source Go projects
-
+- [ ] Build small projects to apply learned concepts
+- [x] Explore Go's standard library
+- [x] Learn about Go modules and dependency management
+- [ ] Practice writing concurrent programs using goroutines and channels
