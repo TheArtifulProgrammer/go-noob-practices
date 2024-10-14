@@ -211,4 +211,4 @@ go run main.go
 - [ ] Build small projects to apply learned concepts
 - [x] Explore Go's standard library
 - [x] Learn about Go modules and dependency management
-- [ ] Practice writing concurrent programs using goroutines and channels
+- [x] Practice writing concurrent programs using goroutines and channels
