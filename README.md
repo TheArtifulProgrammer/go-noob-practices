@@ -1,4 +1,4 @@
-# Learning Go
+# Learning Golang
 
 This repository documents my journey learning the Go programming language, including code examples and explanations of key concepts.
 
